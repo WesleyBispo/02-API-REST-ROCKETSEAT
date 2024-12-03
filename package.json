@@ -1,0 +1,25 @@
+{
+  "name": "02-api-rest-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src --ext .ts --fix",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/node": "^22.10.1",
+    "eslint": "^8.57.1",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "fastify": "^5.1.0",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7"
+  }
+}
