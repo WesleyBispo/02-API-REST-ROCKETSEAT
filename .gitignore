@@ -1,2 +1,3 @@
-tmp/app.db
+db/*
 node_modules
+.env
