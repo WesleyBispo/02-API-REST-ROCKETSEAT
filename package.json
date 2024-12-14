@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint src --ext .ts --fix",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest",
     "dev": "npx tsx watch src/server.ts",
     "knex": "tsx ./node_modules/knex/bin/cli.js"
   },
@@ -15,9 +15,12 @@
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.2.2",
     "@types/node": "^22.10.1",
+    "@types/supertest": "^6.0.2",
     "eslint": "^8.57.1",
+    "supertest": "^7.0.0",
     "tsx": "^4.19.2",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
   },
   "dependencies": {
     "@fastify/cookie": "^11.0.1",
